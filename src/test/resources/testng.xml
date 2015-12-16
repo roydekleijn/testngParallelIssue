@@ -1,0 +1,23 @@
+<suite name="Suite" verbose="1" preserve-order="true"
+ configfailurepolicy="continue" parallel="tests" thread-count="2">
+ <test name="Group 1" parallel="false">
+  <packages>
+   <package name="group1" />
+  </packages>
+ </test>
+ <test name="group2" parallel="false">
+  <packages>
+   <package name="group2" />
+  </packages>
+ </test>
+  <test name="group3">
+  <packages>
+   <package name="group3" />
+  </packages>
+ </test>
+   <test name="group4">
+  <packages>
+   <package name="group4" />
+  </packages>
+ </test>
+</suite>
